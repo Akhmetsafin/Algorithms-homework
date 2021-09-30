@@ -58,49 +58,7 @@ namespace HomeWork01_Algorithms
 
 
 
-          /*  while (i < number)
-            {
-                if (number % i == 0)
-                {
-                    i++;
-                    d++;                    
-                }
-                else
-                {
-                    i++;
-                }
-            }
-           
-            {
-                if (d == 0)
-                {
-                    value = "простое";
-                }
-                else
-                {
-                    value = "не простое";
-                }
-            }
-
-            return value;
-          }
-
-        public  void OunputResulT()
-        {
-            while (true)
-            {
-                Console.Write("Введите число: ");
-                string text = Console.ReadLine();
-                if (int.TryParse(text, out int numberInter))
-
-                {
-                    
-                    
-                    break;
-                }
-                Console.WriteLine("Не удалось распознать число, попробуйте еще раз.");
-            }
-           */ 
+          
         }
 
             
