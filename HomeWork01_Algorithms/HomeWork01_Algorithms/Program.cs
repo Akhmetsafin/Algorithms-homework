@@ -10,6 +10,9 @@ namespace HomeWork01_Algorithms
     {
         static void Main(string[] args)
         {
+            Body body = new Body();
+            body.Verification();
+            Console.ReadLine();
         }
     }
 }
