@@ -53,14 +53,8 @@ namespace HomeWork01_Algorithms
                 }
                 Console.WriteLine("Не удалось распознать число, попробуйте еще раз.");
             }
-
-
-
-
-
-          
+                     
         }
-
             
     }
 }
