@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace doublyLinkedList
 {
     class Program
-
-        // нахожусь в дороге, задание выполнить в срок не успею
+        
+        // нахожусь в дороге, задание выполнить в срок не успею, сделаю к сле
     {
         static void Main(string[] args)
         {
