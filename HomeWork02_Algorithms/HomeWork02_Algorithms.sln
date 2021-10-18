@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "doublyLinkedList", "HomeWork02_Algorithms\doublyLinkedList.csproj", "{D1655087-9B70-47B9-8C10-F2DC3725A449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeTwoLinked", "NodeTwoLinked\NodeTwoLinked.csproj", "{52482F13-F876-432F-B3C4-8F0001C2C527}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeLinked", "NodeTwoLinked\NodeLinked.csproj", "{52482F13-F876-432F-B3C4-8F0001C2C527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked List", "Linked List\Linked List.csproj", "{31254CEB-551F-401A-AF9A-D7EE86350715}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{52482F13-F876-432F-B3C4-8F0001C2C527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52482F13-F876-432F-B3C4-8F0001C2C527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52482F13-F876-432F-B3C4-8F0001C2C527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31254CEB-551F-401A-AF9A-D7EE86350715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31254CEB-551F-401A-AF9A-D7EE86350715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31254CEB-551F-401A-AF9A-D7EE86350715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31254CEB-551F-401A-AF9A-D7EE86350715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

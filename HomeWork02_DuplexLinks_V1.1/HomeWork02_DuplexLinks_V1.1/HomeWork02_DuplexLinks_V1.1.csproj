@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{52482F13-F876-432F-B3C4-8F0001C2C527}</ProjectGuid>
+    <ProjectGuid>{2D076FA2-DB0A-48BF-AE2A-44554399A287}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NodeTwoLinked</RootNamespace>
-    <AssemblyName>NodeTwoLinked</AssemblyName>
+    <RootNamespace>HomeWork02_DuplexLinks_V1._1</RootNamespace>
+    <AssemblyName>HomeWork02_DuplexLinks_V1.1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -6,18 +6,26 @@ using System.Threading.Tasks;
 
 namespace doublyLinkedList
 {
-    class Program
-        
-        // нахожусь в дороге, задание выполнить в срок не успею, сделаю к сле
+    class Program : NodeDuplex
+
+    // нахожусь в дороге, задание выполнить в срок не успею, сделаю к сле
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-           var numArra = new int[] { 55, 11, 77, 22, 16, 57, 56, 14 };
+            NodeDuplex nodeDuplex = new NodeDuplex();
+            nodeDuplex.AddNode(12);
+            Console.WriteLine(nodeDuplex.GetCount());
+            Console.WriteLine();
+        }
+    }
+
+    /*
+     var numArra = new int[] { 11, 55,56,77 };
             Console.Write("Введите искомое число: ");
             int seachNum = Convert.ToInt32(Console.ReadLine());
            Binar binar = new Binar();
-           Console.WriteLine( $"число {seachNum} является элементом {binar.BinarySearch(numArra, seachNum)} массива" );
+            int numMy = binar.BinarySearch(numArra, seachNum);
+           Console.WriteLine( $"число {seachNum} является элементом {numMy} массива" );
            Console.ReadLine();
-        }
-    }
+     */
 }
