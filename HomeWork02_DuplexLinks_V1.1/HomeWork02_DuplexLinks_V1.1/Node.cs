@@ -106,13 +106,29 @@ namespace HomeWork02_DuplexLinks_V1._1
 
             return node;
         }
-        public static void RemoveNextItem(Node node) //удаление следующего примера
+        public  void RemoveNextItem(Node node) //удаление следующего 
         {
             if (node.NextNode == null)
                 return;
 
             var nextItem = node.NextNode.NextNode;
             node.NextNode = nextItem;
+            var prevItem = node.PrevNode;
+            node.PrevNode = prevItem;
+
+        }
+        public Node FindNode(int searchValue)
+        {
+            var findNode = head;
+            while (findNode != null)
+            {
+                if (findNode.Value == searchValue)
+                {
+                    return findNode;
+                }
+                findNode = findNode.NextNode;
+            }
+            return null;
         }
 
 
