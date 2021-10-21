@@ -1,18 +1,33 @@
-﻿namespace HomeWork03_Algorithms
+﻿using BenchmarkDotNet.Attributes;
+
+namespace HomeWork03_Algorithms
 {
-    public class Core
+    public class Benchmark
     {
-        public void CoreOutData()
+
+        [Benchmark]
+        public void ClassFload()
         {
             PointFloat pointFloat = new PointFloat();
             pointFloat.Class_Float();
+        }
+        [Benchmark]
+        public void StructureFloat()
+        {
             StrucutrFloat strucutrFloat = new StrucutrFloat();
             strucutrFloat.RunStructFloat();
+        }
+        [Benchmark]
+        public void StructureDouble()
+        {
             StructurDouble structurDouble = new StructurDouble();
             structurDouble.RunStructFloat();
+        }
+        [Benchmark]
+        public void StructureFloatNoSqrt()
+        {
             StrucutrFloatNoSqrt strucutrFloatNoSqrt = new StrucutrFloatNoSqrt();
             strucutrFloatNoSqrt.RunStructFloatNoSqrt();
-
         }
 
     }

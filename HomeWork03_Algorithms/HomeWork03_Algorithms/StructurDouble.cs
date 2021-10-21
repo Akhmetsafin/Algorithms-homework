@@ -21,10 +21,10 @@ namespace HomeWork03_Algorithms
 
             for (int j = 1; j < k; j++)
             {
-                var PointFloat_A = new StructurDouble(r.Next(1000000), r.Next(1000000));
-                var PointFloat_B = new StructurDouble(r.Next(1000000), r.Next(1000000));
-                mas[j] = Math.Sqrt((PointFloat_A.X + PointFloat_B.X) + (PointFloat_A.Y + PointFloat_B.Y));
-
+                var StructurDouble_A = new StructurDouble(r.Next(1000000), r.Next(1000000));
+                var StructurDouble_B = new StructurDouble(r.Next(1000000), r.Next(1000000));
+                mas[j] = Math.Sqrt((StructurDouble_A.X + StructurDouble_B.X) + (StructurDouble_A.Y + StructurDouble_B.Y));
+                Console.WriteLine(mas[j]);
             }
 
         }
