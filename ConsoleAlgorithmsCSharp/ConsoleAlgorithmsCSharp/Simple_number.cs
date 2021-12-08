@@ -6,7 +6,13 @@ namespace ConsoleAlgorithmsCSharp
     {
         public string welcom = "Программа определения простых и не простых чисел";
     
-       /// <summary>
+            /*
+            Simple_number simple_Number = new Simple_number();
+            Console.WriteLine(simple_Number.welcom);
+            simple_Number.Core();
+            */
+        
+        /// <summary>
        /// метод проверки чисел
        /// </summary>
         public void Verification()
